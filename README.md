@@ -1,15 +1,4 @@
-# Tood_List
- 
-<a name="readme-top">Addisalem Seifu and Amarachi Dimkpa</a>
-
-<div align="center">
-
-  <img src="https://avatars.githubusercontent.com/u/69506217?v=4" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>todo-list</b></h3>
-
-</div>
+<a name="readme-top"></a>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -20,6 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🚀 Presentaton Link ](#-presentaton-link-)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -37,19 +27,59 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio<a name="about-project"></a>
+# 📖 Javascript Group Capstone <a name="about-project"></a>
 
-This is the secound part of Todo Lis project configured with modules and all Es6 sintaxes amd webpack.
+> In this project, a website for movies is being built. The external API used for showing movies and its details is [IMDBbOT](https://github.com/SpEcHiDe/IMDbOT/wiki).
+> The webapp has 2 user interfaces.
+
+- A home page showing a list of movies items that you can interact with the like button
+- A popup window with detailed information about the movie. You can leave a comment as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
+- HTML
+- CSS
+- Javascript
+- Webpack
+- APIs
+- Jest
+
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML&CSS&JS&Webpack Modules(Luxon)
-> jest(for testing)
+<details>
+  <summary>Webpack</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/guides/getting-started/#basic-setup">Webpack</a></li>
+  </ul>
+</details>
 
+<details>
+  <summary>Jest</summary>
+  <ul>
+    <li><a href="https://jestjs.io/">Jest</a></li>
+  </ul>
+</details>
 
-## 🚀 Live Demo <a name="live-demo">https://addisalemseifu.github.io/Tood_List/</a>
+### Key Features <a name="key-features"></a>
+
+- **Users can click on like buttons to like a movie**
+- **Users can click on comment button, read details and add comment to a movie**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Presentaton Link -->
+
+## 🚀 Presentaton <a name="live-demo"></a>
+
+- [Presentaton Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -57,26 +87,50 @@ This is the secound part of Todo Lis project configured with modules and all Es6
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: 
+In order to run this project you need:
 
-```sh
-sudo apt install git-all
-npm install
-```
+- Web Browser
+- Code Editor: [visual Studio code](https://code.visualstudio.com/)
+- node.js(preferable).
+- GitHub/Git.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-```sh
-  cd my-folder
-  git clone git@github.com:mnaibei/portolio.git
 ```
+git@github.com:addisalemseifu/CapstonePro-With-Api.git
+
+```
+
+Open a index.html file with your code editor of your choice and/or a browser of your choice.
+
+```
+Open the project using a live server extension that can be found into your code editor.
+```
+
+### Install
+
+Install npm packages with:
+
+```
+  cd CapstonePro-With-Api
+
+```
+
+```
+  npm install
+```
+
+```
+  npm run build
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Usage
 
@@ -94,17 +148,16 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Addisalem Seifu Beidework**
 
 - GitHub: [@addisalemseifu](https://github.com/githubhandle)
 - Twitter: [@Addisalem Seifu](https://twitter.com/twitterhandle)
 - LinkedIn: [addisalem seifu](https://linkedin.com/in/linkedinhandle)
 
-👤 **Amarachi Dimkpa**
+👤 **Mohammad Suliman Joya**
 
-- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
-- Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
-- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
+- GitHub: [@SulimanJoya](https://github.com/SulimanJoya)
+- LinkedIn: [Mohammad Suliman Joya](https://www.linkedin.com/in/sjoya66/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,12 +165,13 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Javascript]**
-- [ ] **[More_Pages]**
-- [ ] **[More_Media]**
+> Below is a lists of Features to be added later:
+
+- Implement additional home pages, one page per category of movies
+- Deploy the app online
+- Add dark mode to the app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTRIBUTING -->
 
@@ -133,15 +187,29 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project give me a follow
+Please give a ⭐️ if you like this project! 🤝
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse
+- Thanks to [Microverse](https://www.microverse.org/) for giving this opportunity to learn ...
+- Code Reviewers & Coding Partners.
+- Hat tip to anyone whose code was used.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **How to generate a new key for the API?**
+
+- Open VScode and generate a key by using the following command
+
+```
+curl -X POST https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
