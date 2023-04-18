@@ -9,7 +9,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [🚀 Presentaton Link ](#-presentaton-link-)
+  - [🚀 Presentation Link](#Presentation-link)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -77,9 +77,9 @@
 
 <!-- Presentaton Link -->
 
-## 🚀 Presentaton <a name="live-demo"></a>
+## 🚀 Presentation <a name="Presentation-link"></a>
 
-- [Presentaton Link]()
+- [Presentation Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
