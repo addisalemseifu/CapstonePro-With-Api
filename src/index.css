@@ -42,17 +42,13 @@
 
 /* main secion */
 
-.header {
+.mainContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
   width: 100vw;
   position: absolute;
-}
-
-.mainContainer {
-  width: 100%;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -115,4 +111,48 @@ span {
 
 .bold {
   font-weight: 700;
+}
+
+/* Comment popup page */
+
+.comment-popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 6.5rem;
+  left: 4rem;
+  width: 85%;
+  margin-right: 4rem;
+  transform: translateY(-100rem);
+  border: 2px solid red;
+  margin-left: auto;
+}
+
+.active {
+  transform: translateY(0);
+}
+
+.deactive {
+  transform: translateY(-10000rem);
+}
+
+.comment-img {
+  width: 100%;
+  height: 16rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.com-header {
+  margin-top: 0.6rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.discription {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-content: space-between;
 }
