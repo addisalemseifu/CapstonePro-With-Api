@@ -36,11 +36,11 @@ commentPopup.addEventListener('click', (e) => {
     const userComment = document.querySelector('.userComment');
     if (userName.value !== '' && userComment !== '') {
       commentObject = {
-        "item_id": ids,
+        item_id: ids,
         username: userName.value,
         comment: userComment.value,
       };
-      console.log(commentObject)
+      console.log(commentObject);
     }
     Comment.commentPost(commentObject, ids);
   }

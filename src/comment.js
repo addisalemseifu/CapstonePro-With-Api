@@ -1,9 +1,7 @@
 const url = 'https://api.tvmaze.com/search/shows?q=simpsons';
 const appKey = 'xyUc6vOROrsRVucrRen9';
 const commentUrl = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${appKey}/comments`;
-let dd = 0;
 const commentPopup = document.querySelector('.comment-popup');
-let commentCon = document.getElementsByClassName('timeand-comment-cont');
 let commentArray = [];
 export default class Comment {
   static commentPost = async (comment, id) => {
