@@ -47,8 +47,9 @@
   flex-direction: column;
   align-items: center;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   width: 100vw;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .mainContainer {
@@ -107,10 +108,6 @@ span {
   padding: 1rem 0;
   color: #fff;
   background-color: #444;
-  position: absolute;
-  bottom: 0;
-
-  /* left: 0; */
 }
 
 .bold {
