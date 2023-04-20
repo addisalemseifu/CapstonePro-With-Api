@@ -186,3 +186,8 @@ span {
   gap: 1rem;
   justify-content: space-between;
 }
+
+.add-comment {
+  display: flex;
+  flex-direction: column;
+}

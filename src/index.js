@@ -26,3 +26,21 @@ movieContaier.addEventListener('click', (e) => {
     Comment.commentPopulator(comentId);
   }
 });
+
+commentPopup.addEventListener('click', (e) => {
+  let commentObject;
+  let ids = 0;
+  if (e.target.classList.contains('submitComment')) {
+    ids = e.target.id;
+    const userName = document.querySelector('.userName');
+    const userComment = document.querySelector('.userComment');
+    if (userName.value !== '' && userComment !== '') {
+      commentObject = {
+        item_id: ids,
+        username: userName.value,
+        comment: userComment.value,
+      };
+    }
+    Comment.commentPost(commentObject, ids);
+  }
+});
