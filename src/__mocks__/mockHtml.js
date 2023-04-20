@@ -1,3 +1,4 @@
+export default document.body.innerHTML = `
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&   display=swap"
       rel="stylesheet"
     />
-  <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
+  </head>
   <body>
     <!-- Header  -->
     <header>
@@ -31,12 +32,13 @@
       </nav>
     </header>
     <!-- main -->
+    <main class="header">
       <div class="mainContainer">
         <div class="movieContaier"></div>
       </div>
-      
       <section class="comment-popup">
-        
+      <div class="timeand-comment-cont">
+          </div>
         <!-- <input type="textaria" aria-rowcount="10" aria-colcount="20"> -->
       </section> 
     </main>
@@ -50,3 +52,4 @@
     </footer> -->
   </body>
 </html>
+    `;

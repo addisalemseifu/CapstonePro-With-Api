@@ -123,11 +123,19 @@ span {
   position: absolute;
   top: 6.5rem;
   left: 4rem;
-  width: 85%;
+  width: 75%;
   margin-right: 4rem;
   transform: translateY(-100rem);
   border: 2px solid red;
   margin-left: auto;
+}
+
+.fa-xmark {
+  font-size: 3rem;
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .active {
@@ -139,7 +147,7 @@ span {
 }
 
 .comment-img {
-  width: 100%;
+  width: 80%;
   height: 16rem;
   transition: all 0.4s ease-in-out;
 }
