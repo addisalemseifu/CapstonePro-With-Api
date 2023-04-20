@@ -5,7 +5,6 @@ const commentPopup = document.querySelector('.comment-popup');
 let commentArray = [];
 export default class Comment {
   static commentPost = async (comment, id) => {
-    // const myRequest = new Request(commentUrl);
     await fetch(commentUrl, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -60,7 +59,6 @@ export default class Comment {
       }
       commentArray = document.querySelectorAll('.time-com');
       const countBody = document.querySelector('.comment-count');
-      // dd = Comment.commentCounter(commentArray);
       countBody.textContent = `Comments (${Comment.commentCounter(commentArray)})`;
     }
 }

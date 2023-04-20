@@ -40,7 +40,6 @@ commentPopup.addEventListener('click', (e) => {
         username: userName.value,
         comment: userComment.value,
       };
-      console.log(commentObject);
     }
     Comment.commentPost(commentObject, ids);
   }
