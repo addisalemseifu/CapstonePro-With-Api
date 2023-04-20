@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
 movieContaier.addEventListener('click', (e) => {
   if (e.target.classList.contains('comments')) {
     const comentId = e.target.parentElement.id;
-    console.log(comentId)
     if (commentPopup.classList.contains('active')) {
       commentPopup.classList.remove('active');
     }

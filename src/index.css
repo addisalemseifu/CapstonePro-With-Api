@@ -42,10 +42,6 @@
 
 /* main secion */
 
-.header {
-  
-}
-
 .mainContainer {
   display: flex;
   flex-direction: column;
@@ -53,7 +49,6 @@
   margin-top: 2rem;
   width: 100vw;
   position: absolute;
-  width: 100%;
   padding-left: 3rem;
   padding-right: 3rem;
 }
@@ -117,6 +112,7 @@ span {
 .bold {
   font-weight: 700;
 }
+
 /* Comment popup page */
 
 .comment-popup {
@@ -135,7 +131,7 @@ span {
 }
 
 .active {
-  transform: translateY(0rem);
+  transform: translateY(0);
 }
 
 .deactive {
@@ -148,10 +144,6 @@ span {
   transition: all 0.4s ease-in-out;
 }
 
-.comment-img:hover {
-  transform: scale(110%);
-}
-
 .com-header {
   margin-top: 0.6rem;
   font-size: 3rem;
@@ -160,10 +152,7 @@ span {
 
 .discription {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
   justify-content: space-between;
-  align-items: space-between;
-  padding-left: auto;
-  padding-right: auto;
 }
