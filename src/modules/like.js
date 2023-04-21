@@ -1,5 +1,4 @@
 const appKey = 'xyUc6vOROrsRVucrRen9';
-// const appKeycopy = 'xyUc6vOROrsRVucrRen9';
 const likeUrl = `https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/${appKey}/likes`;
 const movie = document.getElementsByClassName('movie');
 export default class Like {

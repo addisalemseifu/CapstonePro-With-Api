@@ -78,6 +78,10 @@ body {
   padding-top: 1rem;
 }
 
+.picture:hover {
+  transform: scale(1.1);
+}
+
 .space-container {
   display: flex;
   flex-direction: column;
@@ -100,7 +104,7 @@ body {
   font-weight: 700;
 }
 
-.comments {
+.comments,.reserve {
   padding: 0.4rem 1rem;
   margin: 0.4rem 0;
   text-transform: uppercase;
@@ -112,7 +116,7 @@ body {
   border-color: #771f1f;
 }
 
-.comments:hover {
+.comments:hover,.reserve:hover {
   padding: 0.4rem 1rem;
   margin: 0.4rem 0;
   text-transform: uppercase;
@@ -147,12 +151,12 @@ span {
   align-items: center;
   position: absolute;
   top: 6.5rem;
-  left: 4rem;
+  left: 8rem;
   width: 75%;
-  margin-right: 4rem;
   transform: translateY(-100rem);
   border: 2px solid red;
   margin-left: auto;
+  margin-top: 2rem;
 }
 
 .fa-xmark {
@@ -175,6 +179,11 @@ span {
   width: 80%;
   height: 16rem;
   transition: all 0.4s ease-in-out;
+  border-radius: 0.6rem;
+}
+
+.comment-img:hover {
+  transform: scale(1.1);
 }
 
 .com-header {

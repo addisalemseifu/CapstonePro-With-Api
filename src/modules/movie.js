@@ -30,6 +30,7 @@ export default class Movie {
     </div>
     <span class="like-count">${likeCou} Likes</span>
     <button class="comments">Comments</button>
+    <button class="reserve">Reservation</button>
 </div>`;
     }
     const movieCount = document.querySelector('.movie-count');

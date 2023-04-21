@@ -2,12 +2,9 @@
  * @jest-environment jsdom
  */
 
-// import './__mocks__/mockHtml.js';
-
 import './__mocks__/mockHtml.js';
-// import Like from './like.js';
-import Movie from './movie.js';
-import Comment from './comment.js';
+import Movie from './modules/movie.js';
+import Comment from './modules/comment.js';
 
 describe('Count movies and comments', () => {
   it('should count no of movies', () => {

@@ -1,7 +1,7 @@
 import './index.css';
-import Movie from './movie.js';
-import Comment from './comment.js';
-import Like from './like.js';
+import Movie from './modules/movie.js';
+import Comment from './modules/comment.js';
+import Like from './modules/like.js';
 
 const movieContaier = document.querySelector('.movieContaier');
 

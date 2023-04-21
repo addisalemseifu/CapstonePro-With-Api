@@ -27,7 +27,6 @@ export default class Comment {
         method: 'GET',
       });
       const resgett = await rese.json();
-      console.log(resgett);
       const request = new Request(url);
       const response = await fetch(request);
       const bodyResponse = await response.json();
