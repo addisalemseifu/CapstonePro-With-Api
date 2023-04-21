@@ -53,11 +53,6 @@ body {
   margin-top: 1rem;
 }
 
-.mainContainer {
-  width: 100%;
-  padding: 0 3rem;
-}
-
 .movieContaier {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
