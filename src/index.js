@@ -43,4 +43,11 @@ commentPopup.addEventListener('click', (e) => {
     }
     Comment.commentPost(commentObject, ids);
   }
+
+  if (e.target.classList.contains('fa-xmark')) {
+    if (commentPopup.classList.contains('active')) {
+      commentPopup.classList.remove('active');
+    }
+    mainContainer.classList.remove('deactive');
+  }
 });

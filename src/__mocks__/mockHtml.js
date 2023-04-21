@@ -1,3 +1,4 @@
+export default document.body.innerHTML = `
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,12 +15,14 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&   display=swap"
       rel="stylesheet"
     />
-  <script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script></head>
+  </head>
   <body>
     <!-- Header  -->
     <header>
       <nav class="navbar d-flex">
+        <!-- <a href="#"> -->
         <img class="logo" src="./assets/logo.png" alt="logo" />
+        <!-- </a> -->
         <ul class="navlinks d-flex">
           <li class="navitems"><span class="movie-count">Movies (0)</span></li>
           <li class="navitems"><a href="#Home">Home</a></li>
@@ -29,20 +32,24 @@
       </nav>
     </header>
     <!-- main -->
+    <main class="header">
       <div class="mainContainer">
         <div class="movieContaier"></div>
       </div>
-      
       <section class="comment-popup">
-        
+      <div class="timeand-comment-cont">
+          </div>
         <!-- <input type="textaria" aria-rowcount="10" aria-colcount="20"> -->
       </section> 
     </main>
     
     <!------Footer------>
-    <footer class="footer">
-      Created by <strong>Addisalem</strong> & <strong>Suliman</strong> under CC
-      License
-    </footer>
+    <!-- <footer class="footer">
+      <p>
+        Created by <span class="bold">Addisalem</span> &
+        <span class="bold">Suliman</span> under CC License
+      </p>
+    </footer> -->
   </body>
 </html>
+    `;

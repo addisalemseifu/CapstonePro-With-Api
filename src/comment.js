@@ -14,6 +14,9 @@ export default class Comment {
   }
 
   static commentCounter = (commens) => {
+    if (commens == null || commens === undefined) {
+      return 'The surver is not responding at the moment. Please wait!!';
+    }
     const count = commens.length;
     return count;
   }
@@ -30,7 +33,8 @@ export default class Comment {
       const bodyResponse = await response.json();
       for (let i = 0; i < bodyResponse.length; i += 1) {
         if (Number(bodyResponse[i].show.id) === Number(ides)) {
-          commentPopup.innerHTML = `<img src="${bodyResponse[i].show.image.original}" alt="" class="comment-img">
+          commentPopup.innerHTML = `
+          <i class="fa-solid fa-xmark"></i><img src="${bodyResponse[i].show.image.original}" alt="" class="comment-img">
           <h1 class="com-header">${bodyResponse[i].show.name}</h1>
           <div class="discription">
               <h4 class="detail">Language: ${bodyResponse[i].show.language}</h4>

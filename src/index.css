@@ -5,6 +5,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  background-color: #edeff5;
+}
+
 .d-flex {
   display: flex;
 }
@@ -46,11 +50,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2rem;
-  width: 100vw;
-  position: absolute;
-  padding-left: 3rem;
-  padding-right: 3rem;
+  margin-top: 1rem;
 }
 
 .movieContaier {
@@ -64,32 +64,64 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid black;
+  background-color: #807e7e;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 2rem;
 }
 
 .picture {
-  border: 2px solid black;
-  width: 100%;
-  height: 6rem;
+  border-radius: 5px;
+  width: 80%;
+  height: 20rem;
   transition: all 0.4s ease-in-out;
+  padding-top: 1rem;
 }
-
-/* .picture:hover {
-  transform: scale(110%);
-} */
 
 .space-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid black;
-  width: 100%;
-  margin-bottom: 0.4rem;
+  width: 80%;
 }
 
 .space {
   text-align: center;
   margin-bottom: 0.4rem;
+  color: #fff;
+}
+
+.fa-heart {
+  color: #e21010;
+}
+
+.like-count {
+  color: #771f1f;
+  font-weight: 700;
+}
+
+.comments {
+  padding: 0.4rem 1rem;
+  margin: 0.4rem 0;
+  text-transform: uppercase;
+  background-color: #e7a921;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  border-color: #771f1f;
+}
+
+.comments:hover {
+  padding: 0.4rem 1rem;
+  margin: 0.4rem 0;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #e7a921;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  border-color: #771f1f;
 }
 
 span {
@@ -98,19 +130,12 @@ span {
 }
 
 /* footer */
+
 .footer {
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
   color: #fff;
   background-color: #444;
-  position: absolute;
-  bottom: 0;
-
-  /* left: 0; */
-}
-
-.bold {
-  font-weight: 700;
 }
 
 /* Comment popup page */
@@ -123,11 +148,19 @@ span {
   position: absolute;
   top: 6.5rem;
   left: 4rem;
-  width: 85%;
+  width: 75%;
   margin-right: 4rem;
   transform: translateY(-100rem);
   border: 2px solid red;
   margin-left: auto;
+}
+
+.fa-xmark {
+  font-size: 3rem;
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .active {
@@ -139,7 +172,7 @@ span {
 }
 
 .comment-img {
-  width: 100%;
+  width: 80%;
   height: 16rem;
   transition: all 0.4s ease-in-out;
 }
