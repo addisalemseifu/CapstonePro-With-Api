@@ -15,14 +15,15 @@ export default class Movie {
     const likeArray = await Like.getLikes();
     let likeCou = 0;
     movieContaier.innerHTML = '';
-    for (let i = 0; i < returnMovies.length; i += 1) {
+    for (let i = 0; i < 6; i += 1) {
       for (let j = 0; j < likeArray.length; j += 1) {
         if (returnMovies[i].show.id === Number(likeArray[j].item_id)) {
           likeCou = likeArray[j].likes;
         }
       }
       movieContaier.innerHTML += `<div class="movie" id="${returnMovies[i].show.id}">
-    <img class="picture" src="${returnMovies[i].show.image.original}" alt="">
+    <img class="picture" src="${returnMovies[i].show.image.original
+    }" alt="">
     <div class="space-container">
         <h3 class="space">${returnMovies[i].show.name}</h3>
         <i class="fa-regular fa-heart"></i>
@@ -31,5 +32,16 @@ export default class Movie {
     <button class="comments">Comments</button>
 </div>`;
     }
+    const movieCount = document.querySelector('.movie-count');
+    const movies = document.getElementsByClassName('movie');
+    movieCount.textContent = `Movies (${Movie.countMovie(movies)})`;
+  };
+
+  static countMovie = (movieArray) => {
+    if (movieArray == null || movieArray === undefined) {
+      return 'The surver is not responding at the moment. Please wait!!';
+    }
+    const noOfMovies = movieArray.length;
+    return noOfMovies;
   };
 }
